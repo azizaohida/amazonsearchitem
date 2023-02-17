@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+ <listeners>
+<listener class-name="ListenersPack.IListeners"></listener>	 
+	 
+	 
+ </listeners>
+ 
+ 
+ 
+ 
+  <test name="amazon_16_Test">
+ 
+ <parameter name="browser" value="chrome"></parameter>
+<parameter name="urlAddress" value="https://www.amazon.com"></parameter>
+ 
+ 
+ 
+ 
+ 
+ 
+    <classes>
+      <class name="Amazon_Testng_sel_16.testng_amazon_Test"/>
+    </classes>
+  </test> <!-- amazon_16_Test -->
+</suite> <!-- Suite -->

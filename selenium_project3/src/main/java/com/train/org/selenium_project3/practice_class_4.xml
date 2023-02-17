@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="tests" thread-count="5">
+<!-- test level 1-->
+<test name="amazon1">
+<parameter name="Browser" value="chrome"></parameter>
+<parameter name="urlAddress" value="https://www.amazon.com"></parameter>
+
+<classes>
+<class name="Practice_class_3_run_parealel.Amazon_Testng_class_2"></class>
+<class name="Peactice_xmlcalass_1_testng.Ebay_Testing_class_1_testng"></class>
+
+</classes>
+</test>	
+<!-- test level-2-->
+
+<test name="amazon2">
+<parameter name="Browser" value="edge"></parameter>
+<parameter name="urlAddress" value="https://www.amazon.com"></parameter>
+<classes>
+<class name="Practice_class_3_run_parealel.Amazon_Testng_class_2"></class>
+<class name="Peactice_xmlcalass_1_testng.Ebay_Testing_class_1_testng"></class>
+
+
+</classes>	
+</test>	
+
+
+
+
+</suite>

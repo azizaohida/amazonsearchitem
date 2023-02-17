@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="facebook_login">
+    <parameter name="browser" value="chrome"></parameter>
+<parameter name="urlAddress" value="https://www.facebook.com"></parameter>
+   
+    <classes>
+      <class name="Data_provider_sel_15_testng.Face_book_data_provider_testng"/>
+    </classes>
+  </test> <!-- facebook_login -->
+</suite> <!-- Suite -->

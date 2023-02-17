@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="face_book">
+  <test thread-count="5" name="sigi_in_Test">
+    <classes>
+      <class name="face_book_sign_testng.sign_in_Testng"/>
+    </classes>
+  </test> <!-- sigi_in_Test -->
+</suite> <!-- face_book -->
