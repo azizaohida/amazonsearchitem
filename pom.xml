@@ -79,7 +79,7 @@
           <version>2.22.1</version>
       <configuration>
 		  
-		  <suiteXmlFiles>amazon1.xml</suiteXmlFiles>
+		  <suiteXmlFiles>${xmlSuiteFileName}</suiteXmlFiles>
 	  </configuration>
       
         </plugin>
